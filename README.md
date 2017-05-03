@@ -24,6 +24,7 @@ Linux command
     `export PATH=[url]:$PATH`
 8. ### 创建永久环境变量
     `vi /etc/profile` <font color=gray size=2>修改profile文件</font>  
+    <font color=gray size=2>例：</font>`export PATH=$PATH:/usr/local/src/node/bin`
 9. ### 查看环境变量
     `$PATH`
 10. ### 传包
