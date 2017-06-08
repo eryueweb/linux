@@ -1,6 +1,4 @@
-Linux
-====
-Linux command
+Linux常用命令
 ---
 1. ### 删除
    `rm -rf [url | *]`

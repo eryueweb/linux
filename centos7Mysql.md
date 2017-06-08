@@ -1,5 +1,5 @@
 centos7 mysql安装
-===
+---
 1. `sh /usr/local/mysql/scripts/mysql_install_db.sh --user=mysql --basedir=/usr/local/mysql --datadir=/usr/local/mysql/data `
 
 2. `cd bin`
@@ -76,41 +76,41 @@ centos7 mysql安装
 
 38. `cp support-files/mysql.server /etc/init.d/mysql`
 
-`chkconfig mysql on`
+39. `chkconfig mysql on`
 
-`more /etc/profile`
+40. `more /etc/profile`
 
-`vi /etc/profile`
+41. `vi /etc/profile`
 
-`source /etc/profile`
+42. `source /etc/profile`
 
-`mysql`
+43. `mysql`
 
-`su - mysql`
+44. `su - mysql`
 
-`service mysql start`
+45. `service mysql start`
 
-`chmod +x  /etc/init.d/mysql`
+46. `chmod +x  /etc/init.d/mysql`
 
-`service mysql start`
+47. `service mysql start`
 
-`mysql -uroot`
+48. `mysql -uroot`
 
-`ps -ef |grep mysql`
+49. `ps -ef |grep mysql`
 
-`netstat -ntlp |grep 26214`
+50. `netstat -ntlp |grep 26214`
 
-`su - mysql`
+51. `su - mysql`
 
-` mysql`
+52. `mysql`
 
-`mysql root'@'localhost`
+53. `mysql root'@'localhost`
 
-`mysql -uroot`
+54. `mysql -uroot`
 
-`mysql -uroot -p`
+55. `mysql -uroot -p`
 
-查看服务器内存占用情况
+56. 查看服务器内存占用情况  
 `free -m`   
 
-`mysql`
+57. `mysql`
