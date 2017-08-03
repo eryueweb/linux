@@ -7,4 +7,4 @@ Linux
 Mac OS
 ====
 
-* ## [常用命令](https://github.com/eryueweb/linux/blob/master/common.md "Mac Os常用命令")
+* ## [常用命令](https://github.com/eryueweb/linux/blob/master/commonMacOs.md "Mac Os常用命令")
